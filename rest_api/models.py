@@ -81,6 +81,7 @@ class DistrictTable(models.Model):
 
 #[END]
 
+
 class UserTable(models.Model):
     user_id = models.AutoField(db_column='user_id', primary_key=True) 
     user_name = models.CharField(max_length=500, db_column='user_name')
